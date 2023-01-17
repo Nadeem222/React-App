@@ -31,7 +31,7 @@ function Hi (props){
 }
 ReactDOM.render(<div>
   <Hi 
-    name="Nadeem" 
+    name="Nadeem Hakeem" 
     date= " 1 jan 2023" 
     imageUrl="https://media.istockphoto.com/id/632443888/photo/founder-of-pakistan-jinnahs-tomb-called-mazar-e-quid-karachi.jpg?b=1&s=170667a&w=0&k=20&c=IWa11lLbA-cbZopeLyAc6-Lzi92WGilX84g6yuR_1Ww="
     text="Mazar-e-Quaid, also known as Jinnah Mausoleum or the National Mausoleum, is the final resting place of Muhammad Ali Jinnah, the founder of Pakistan. Designed in a 1960s modernist style, it was completed in 1971, and is an iconic symbol of Karachi as well as one of the most popular tourist sites in the city."
