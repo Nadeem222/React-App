@@ -1,22 +1,32 @@
 import React from "react";
 import  ReactDOM from "react-dom";
-import "./index.css"
+import "./index.css";
+import mainPic from "./img/profile.jpg"
 
+<div>
+  <nav>
+    <div>
+      
+    </div>
+  </nav>
+</div>
 
-
-function Hi (props){
-  return( 
+const Hi = ({name, date , text , imageUrl}) =>( 
   <div className="post">
     <div className="profile">
-      <img src="" alt="" />
-      <h2>{props.name}</h2>
-      <span>{props.date}</span>
+      <div className="left">
+       <img src={mainPic} alt="" />
+      </div>
+      <div className="right">
+        <h2>{name}</h2>
+        <span>{date}</span>
+      </div>
     </div>
     <br/>
-    <p>{props.text}</p>
+    <p>{text}</p>
     <img
-      width="300px"
-      src={props.imageUrl}
+      width="100%"
+      src={imageUrl}
       alt=""
      />  
     <hr/>
@@ -28,7 +38,6 @@ function Hi (props){
     </div>
   </div>
   );
-}
 ReactDOM.render(<div>
   <Hi 
     name="Nadeem Hakeem" 
