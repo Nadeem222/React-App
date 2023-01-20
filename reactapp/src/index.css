@@ -18,6 +18,9 @@ body{
   font-weight: 400;
   font-size: 12px;
 }
+.post img{
+  width: 100%;
+}
 .post> .profile{
   display: flex;
   font-size: 10px;
